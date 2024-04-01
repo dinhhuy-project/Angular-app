@@ -1,0 +1,15 @@
+
+
+
+.to-do-app-header {
+    // margin-top: 10px;
+    position: absolute;
+    top: 10px;
+}
+
+.to-do-app-header-time {
+    font-weight: 500;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+}
