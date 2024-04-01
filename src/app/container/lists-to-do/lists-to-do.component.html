@@ -1,7 +1,9 @@
-<div class="to-do-app-lists" *ngFor="let item of lists, let i = index">
-    <p>
-        <input type="checkbox" (click)="done(i)">
-        <label for="checkbox"></label>
-        <span> {{ item.activity }} </span>
-    </p>
+<div class="to-do-app-lists-container">
+    <div class="to-do-app-lists" *ngFor="let item of lists, let i = index">
+        <p>
+            <input type="checkbox" (click)="done(i)">
+            <label for="checkbox"></label>
+            <span> {{ item.activity }} </span>
+        </p>
+    </div>
 </div>

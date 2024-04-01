@@ -1,18 +1,28 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
 
+.to-do-app-adding-blur {
+    width: 500px;
+    height: 110px;
+    border: 1px solid;
+    position: absolute;
+    filter: blur(5px);
+    z-index: -1;
+}
+
 .to-do-app-adding {
-    // width: 100px;
-    // height: 110px;
-    // border: 1px solid;
-    position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 0;
+    position: absolute;
+    bottom: 0px;
     z-index: 999;
 }
 
 
 .to-do-app-adding-btn {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     color: rgb(88, 167, 226);;
     font-size: 90px;
+    background-color: inherit;
+    filter: blur(0px);
+    z-index: 999;
 }
