@@ -1,18 +1,39 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
 
+
+
+.to-do-app-exit-adding {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 90vw;
+    height: 90vh;
+    // border: 1px solid;
+    z-index: 998;
+}
+
 .to-do-app-adding-blur {
     width: 500px;
     height: 110px;
-    border: 1px solid;
     position: absolute;
-    filter: blur(5px);
+    background-color: inherit;
+    filter: blur(50px);
+    background-color: rgb(242, 244, 246);
+    // background: linear-gradient(to top, );
+    // backdrop-filter: blur(2px);
     z-index: -1;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .to-do-app-adding {
     position: absolute;
     bottom: 0px;
-    z-index: 999;
+    z-index: 990;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 
@@ -20,9 +41,70 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    bottom: 0px;
     color: rgb(88, 167, 226);;
     font-size: 90px;
     background-color: inherit;
     filter: blur(0px);
     z-index: 999;
+}
+
+.to-do-app-adding-landpage {
+    width: 400px;
+    height: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+}
+
+.to-do-app-adding-landpage-blur
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30vw;
+    height: 50vh;
+    filter: blur(100px);
+    background-color: rgb(88, 167, 226);
+    z-index: 0;
+}
+
+
+.to-do-app-adding-landpage-input
+{
+    // display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    bottom: 0;
+    transform: translateY(-50%);
+    width: 300px;
+    height: 70px;
+    font-size: 25px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-sizing: content-box;
+    border: none;
+}
+
+.to-do-app-adding-landpage-submit {
+    // display: inline-block;
+    position: absolute;
+    width: 100px;
+    height: 70px;
+    right: 0;
+    top: 50%;
+    bottom: 0;
+    transform: translateY(-50%);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-sizing: content-box;
+    font-size: 25px;
+    background-image: linear-gradient(rgb(86, 182, 249), rgb(70, 157, 245));
+    color: white;
+    border: none;
+    // border-style:;
 }

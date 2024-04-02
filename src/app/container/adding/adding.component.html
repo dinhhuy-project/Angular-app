@@ -1,6 +1,14 @@
+<div class="to-do-app-exit-adding" (click)="outAdding()"  *ngIf="isAddClick"></div>
+<div class="to-do-app-adding-landpage-blur" *ngIf="isAddClick"></div>
 <div class="to-do-app-adding">
     <div class="to-do-app-adding-blur"></div>
-    <button class="to-do-app-adding-btn">
+    <button class="to-do-app-adding-btn" (click) = "adding()">
         <i class="fa fa-plus-circle" aria-hidden="true"></i>
     </button>
+</div>
+
+<div class="to-do-app-adding-landpage" *ngIf="isAddClick">
+    <!-- <p class="to-do-app-adding-landpage-name">Enter your activity here:</p> -->
+    <input class="to-do-app-adding-landpage-input" type="text" placeholder="Enter your activity here">
+    <input class="to-do-app-adding-landpage-submit" type="submit">
 </div>
