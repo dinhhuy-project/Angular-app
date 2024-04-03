@@ -86,3 +86,13 @@ input[type="checkbox"]:checked ~ span {
     text-decoration: line-through;
     opacity: 0.3;
 }
+
+.to-do-app-helper-refresh {
+    position: absolute;
+    z-index: 1;
+    font-size: 30px;
+    background-color: inherit;
+    color: rgb(131, 189, 233);
+    right: 20px;
+    top: 60px;
+}

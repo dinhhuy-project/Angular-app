@@ -12,6 +12,9 @@ import { AddingComponent } from './adding/adding.component';
   styleUrl: './container.component.scss'
 })
 export class ContainerComponent {
-  // lists_to_do = lists;
-
+  lists_to_do = [''];
+  addAct(newAct: string)
+  {
+    this.lists_to_do.push(newAct);
+  }
 }

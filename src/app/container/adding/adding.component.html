@@ -9,6 +9,6 @@
 
 <div class="to-do-app-adding-landpage" *ngIf="isAddClick">
     <!-- <p class="to-do-app-adding-landpage-name">Enter your activity here:</p> -->
-    <input class="to-do-app-adding-landpage-input" type="text" placeholder="Enter your activity here">
-    <input class="to-do-app-adding-landpage-submit" type="submit">
+    <input class="to-do-app-adding-landpage-input" type="text" placeholder="Enter your activity here" #newAct>
+    <input class="to-do-app-adding-landpage-submit" type="submit" (click) = "AddNewAct(newAct.value)">
 </div>

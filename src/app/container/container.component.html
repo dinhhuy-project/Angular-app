@@ -2,7 +2,7 @@
     <div class="to-do-app-displayer">
         <app-header></app-header>
         <app-title></app-title>
-        <app-lists-to-do></app-lists-to-do>
-        <app-adding></app-adding>
+        <app-lists-to-do [lists] = "lists_to_do"></app-lists-to-do>
+        <app-adding (newActEvent)="addAct($event)"></app-adding>
     </div>
 </div>

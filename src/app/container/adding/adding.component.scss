@@ -66,10 +66,12 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 30vw;
-    height: 50vh;
-    filter: blur(100px);
-    background-color: rgb(88, 167, 226);
-    z-index: 0;
+    height: 30vh;
+    // filter: blur(100px);
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0px 2px 5px 5px rgb(148, 147, 147);
+    z-index: 999;
 }
 
 
@@ -87,14 +89,15 @@
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     box-sizing: content-box;
-    border: none;
+    border: 1px solid;
+    padding-left: 10px;
 }
 
 .to-do-app-adding-landpage-submit {
     // display: inline-block;
     position: absolute;
     width: 100px;
-    height: 70px;
+    height: 73px;
     right: 0;
     top: 50%;
     bottom: 0;
@@ -106,5 +109,10 @@
     background-image: linear-gradient(rgb(86, 182, 249), rgb(70, 157, 245));
     color: white;
     border: none;
+    cursor: pointer;
     // border-style:;
+}
+
+.to-do-app-adding-landpage-submit:hover {
+    background-image: linear-gradient(rgb(48, 166, 250), rgb(35, 142, 250));
 }

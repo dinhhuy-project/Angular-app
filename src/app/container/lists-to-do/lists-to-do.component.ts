@@ -1,5 +1,6 @@
 import { NgForOf } from '@angular/common';
-import { Component, Output } from '@angular/core';
+import { Component, Input, Output } from '@angular/core';
+import { of } from 'rxjs';
 
 @Component({
   selector: 'app-lists-to-do',
@@ -9,47 +10,27 @@ import { Component, Output } from '@angular/core';
   styleUrl: './lists-to-do.component.scss'
 })
 export class ListsToDoComponent {
-  @Output()
+  @Input()
   lists = [
     {
-      activity: 'Create new project',
-      done: false
-    },
-    {
-      activity: 'Working call',
-      done: false
-    },
-    {
-      activity: 'Meet with doctor',
-      done: false
-    },
-    {
-      activity: 'Meet with doctor',
-      done: false
-    },
-    {
-      activity: 'Meet with doctor',
-      done: false
-    },
-    {
-      activity: 'Meet with doctor',
-      done: false
-    },
-    {
-      activity: 'Meet with doctor',
-      done: false
-    },
-    {
-      activity: 'Meet with doctor',
-      done: false
-    },
-    {
-      activity: 'Meet with doctor',
+      activity: 'Start your "to do" here',
       done: false
     },
   ];
 
   done(num:number) {
     this.lists[num].done = !this.lists[num].done;
+    console.log(this.lists[num].done)
+  }
+
+  refresh() {
+    for(var i=0; i<this.lists.length; i++)
+    {
+      if(this.lists[i].done == true)
+      {
+        this.lists.splice(i, 1);
+        console.log(`removed the ${this.lists[i].activity}`)
+      }
+    }
   }
 }

@@ -1,5 +1,5 @@
 import { NgIf } from '@angular/common';
-import { Component, } from '@angular/core';
+import { Component, EventEmitter, Output, } from '@angular/core';
 
 @Component({
   selector: 'app-adding',
@@ -9,6 +9,8 @@ import { Component, } from '@angular/core';
   styleUrl: './adding.component.scss'
 })
 export class AddingComponent {
+  @Output() newActEvent = new EventEmitter<string>();
+  
   isAddClick :boolean = false
   adding()
   {
@@ -18,4 +20,6 @@ export class AddingComponent {
   {
     this.isAddClick = false;
   }
+
+
 }
