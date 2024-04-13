@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "EMNYdQ4ZHtExa98QHniZaZ/VwzNLWpwc+hAyojExEJ0=",
+  "Source": "Payment-App.Server",
+  "BasePath": "_content/Payment-App.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\huybuidinh\\source\\repos\\Payment-App\\payment-app.client\\payment-app.client.esproj",
+      "Version": 2,
+      "Source": "payment-app.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
