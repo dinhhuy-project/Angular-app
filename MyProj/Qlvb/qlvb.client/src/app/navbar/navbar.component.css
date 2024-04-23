@@ -1,0 +1,26 @@
+div {
+    /* border: 1px solid; */
+    height: 40px;
+    background-color: rgb(71, 164, 252);
+    button {
+        padding: 13px 25px;
+        height: inherit;
+        /* box-sizing: content-box; */
+        /* display: inline-flex; */
+        float: left;
+        border-top: none;
+        border-bottom: none;
+        border-left: none;
+        background-color: inherit;
+        border-color: white;
+        p {
+            font-weight: bold;
+            font-size: 15px;
+            color: whitesmoke;
+        };
+    };
+
+    button:hover {
+        background-color: rgb(42, 141, 233);
+    }
+};

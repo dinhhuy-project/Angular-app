@@ -1,0 +1,46 @@
+.header-container {
+    margin-bottom: 20px;
+}
+
+.header-left {
+    width: 40%;
+    display: inline-block;
+    p {
+        font-weight: bold;
+    };
+
+    .header-left-name {
+        font-size: 18px;
+    };
+    
+    .header-left-work {
+        font-size: 20px;
+    };
+}
+
+
+
+.header-right {
+    width: 60%;
+    display: inline-block;
+    /* border: 1px solid; */
+    p {
+        text-align: start;
+        padding-left: 100px;
+        margin-bottom: 5px;
+    };
+    
+    a {
+        text-align: start;
+        padding-right: 30px;
+        font-size: 13px;
+        text-decoration: none; 
+    };
+
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+
+

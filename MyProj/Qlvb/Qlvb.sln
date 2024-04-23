@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qlvb.Server", "Qlvb.Server\Qlvb.Server.csproj", "{DFE07487-9464-4B53-A53D-C8B14C6FB1A8}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "qlvb.client", "qlvb.client\qlvb.client.esproj", "{5A0CBA1C-2D13-4BBF-B828-3495CAC532B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFE07487-9464-4B53-A53D-C8B14C6FB1A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFE07487-9464-4B53-A53D-C8B14C6FB1A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFE07487-9464-4B53-A53D-C8B14C6FB1A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFE07487-9464-4B53-A53D-C8B14C6FB1A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A0CBA1C-2D13-4BBF-B828-3495CAC532B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A0CBA1C-2D13-4BBF-B828-3495CAC532B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A0CBA1C-2D13-4BBF-B828-3495CAC532B9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5A0CBA1C-2D13-4BBF-B828-3495CAC532B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A0CBA1C-2D13-4BBF-B828-3495CAC532B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A0CBA1C-2D13-4BBF-B828-3495CAC532B9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3EB92FA5-0C1E-4C3E-A2D2-395E9CB91F59}
+	EndGlobalSection
+EndGlobal

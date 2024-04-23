@@ -1,0 +1,6 @@
+@Qlvb.Server_HostAddress = http://localhost:5092
+
+GET {{Qlvb.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
