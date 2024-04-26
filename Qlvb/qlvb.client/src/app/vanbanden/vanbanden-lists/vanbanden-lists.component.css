@@ -1,0 +1,40 @@
+.vanbanden-lists-container {
+    display: inline-flex;
+    float: right;
+    width: 67%;
+    height: 100%;
+    border: 10px solid rgb(120, 194, 255);
+    /* padding: 5px; */
+    background-color: whitesmoke;
+    /* position: absolute; */
+}
+
+h3 {
+    padding: 15px;
+    /* padding-top: 10px; */
+}
+
+button {
+    padding: 5px 15px;
+    float: left;
+    margin-left: 15px;
+}
+
+
+
+.Adding-Popup {
+    width: 65vw;
+    height: 60vh;
+    border: 1px solid;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+
+
+    button {
+        float: right;
+        margin: 15px;
+    }
+}

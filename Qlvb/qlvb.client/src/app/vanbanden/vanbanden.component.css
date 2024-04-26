@@ -1,0 +1,14 @@
+.space {
+    height: 50px;
+    /* border: 1px solid; */
+    background-color: rgb(120, 194, 255);
+    margin-bottom: 15px;
+}
+
+.container {
+    height: 79vh;
+    /* border: 1px solid; */
+    box-sizing: border-box;
+    /* background-color: rgb(120, 194, 255); */
+    /* position: relative; */
+}

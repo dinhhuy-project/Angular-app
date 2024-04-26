@@ -1,0 +1,39 @@
+div {
+    /* border: 1px solid; */
+    height: 40px;
+    background-color: rgb(71, 164, 252);
+    a {
+        display: block;
+        float: left;
+        box-sizing: content-box;
+        height: inherit;
+        button {
+            font-weight: bold;
+            font-size: 15px;
+            color: whitesmoke;
+            text-decoration: none;
+            /* display: inline-flex; */
+            padding: 13px 25px;
+            height: inherit;
+            /* box-sizing: border-box; */
+            /* display: inline-flex; */
+            border: 1px solid;
+            border-top: none;
+            border-bottom: none;
+            border-left: none;
+            background-color: inherit;
+            border-color: white;
+        };
+    };
+        
+    a:hover {
+        button {
+            background-color: rgb(42, 141, 233);
+            text-decoration: underline;
+        }
+    };
+    .active {
+        background-color: rgb(120, 194, 255);
+    }
+}
+

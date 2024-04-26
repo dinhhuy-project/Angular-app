@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "xZEEIw1OuBTYh6P8tL9tA8X905ljaj9r+47xeH5BqIc9a+vIfwTky9MNHRQSzPw+FXOEbIIPfESOb/zVhz44dw==",
+  "success": true,
+  "projectFilePath": "C:\\code\\vtlt\\MyProj\\Qlvb\\Qlvb.Server\\Qlvb.Server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\huybuidinh\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\8.0.4\\microsoft.aspnetcore.spaproxy.8.0.4.nupkg.sha512",
+    "C:\\Users\\huybuidinh\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\huybuidinh\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\huybuidinh\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\huybuidinh\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\huybuidinh\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\huybuidinh\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

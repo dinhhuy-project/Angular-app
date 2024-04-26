@@ -1,0 +1,14 @@
+<div class="vanbanden-lists-container">
+    <div class="vanbanden-lists-tasks"> 
+        <h3>Danh sách văn bản đến</h3>
+        <button (click)="AddingButton()">Thêm</button>
+        
+    </div>
+</div>
+
+
+<div  class="Adding-Popup" *ngIf="show">
+    <button (click)="turnOff()">
+        Close
+    </button>
+</div>
